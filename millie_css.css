@@ -10434,7 +10434,51 @@ a.text-dark:focus, a.text-dark:hover {
         color: inherit;
         border-color: #dee2e6
     }
+
+
 }
+h1{
+    font-family: system-ui;
+    background: #f06d06;
+    color: white;
+    text-align: center;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  
+  canvas#canvas {
+    display: block;
+    background: #ACE8FE;
+  }
+  
+  ul#navigation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin-right: 1.6rem;
+    font-size: 0.8rem;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+  }
+  
+  ul#navigation > li {
+    display: inline-block;
+  }
+  
+  
+  
+  Resources
 
 /*# sourceMappingURL=bootstrap.min.css.map */
   
